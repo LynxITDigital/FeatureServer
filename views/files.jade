@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1=  title
+
+  ul
+  each val, index in fileList
+    li= index + ': ' + val
+    //img(src="../uploads/"+val+".jpg",alt="", style="width:200px; height:250px;")
